@@ -13,3 +13,4 @@
 | 01 | [동시 401이 세션을 끊던 문제](./01-single-flight-token-refresh.md) | 불린 플래그로는 막을 수 없는 이유 — 갱신 Promise 자체를 공유하기 |
 | 02 | ["1e-7"이 금액 검증을 뚫던 문제](./02-exponential-notation-bypass.md) | toFixed가 오히려 위험한 이유 — 반올림 없는 지수 표기 전개 |
 | 03 | [업데이트하면 지갑이 사라지던 문제](./03-storage-detection-over-env-flags.md) | 상태 판별의 진실 원천을 환경이 아니라 데이터에 두기 |
+| 04 | [지갑을 바꿔도 이전 잔액이 보이던 문제](./04-typed-cache-scoping.md) | 캐시 스코프 규칙을 문서가 아니라 타입으로 강제하기 |
