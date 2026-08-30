@@ -15,3 +15,4 @@
 | 03 | [업데이트하면 지갑이 사라지던 문제](./03-storage-detection-over-env-flags.md) | 상태 판별의 진실 원천을 환경이 아니라 데이터에 두기 |
 | 04 | [지갑을 바꿔도 이전 잔액이 보이던 문제](./04-typed-cache-scoping.md) | 캐시 스코프 규칙을 문서가 아니라 타입으로 강제하기 |
 | 05 | [보안 모듈에 폴백을 만들지 않은 이유](./05-no-fallback-for-security.md) | 성능 폴백과 보안 폴백은 다르다 — fail-closed |
+| 06 | [같은 송금이 두 번 나갈 수 있던 문제](./06-idempotent-transfers.md) | 위험한 건 실패한 재시도가 아니라 "모름" 상태의 재시도 |
